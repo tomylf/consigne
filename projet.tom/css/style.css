@@ -1,0 +1,98 @@
+body{
+    width: 100%;
+}
+
+header{
+    background: url(../img/planches.jpg);
+}
+
+header, .tete, .marque, h1, nav{
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+
+h1{
+    display: inline-block;
+    font-size: 3rem;
+    margin-left: 80px;
+}
+
+nav{
+
+    text-align: center;
+    position: relative;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: auto 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+header .cerf{
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+article{
+    width: 70%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section{
+    width: 50%;
+    text-align: center;
+    margin: 2em;
+}
+
+article:first-of-type .text{
+    text-align: left;
+}
+
+article:last-of-type .text{
+    text-align: right;
+}
+
+section .img{
+    margin: auto;
+}
+
+#oeuf img{
+    width: 100%;
+}
+
+.grn{
+    height: 250px;
+}
+
+h4{
+    color: #e53f6f;
+}
+hr{ 
+    width: 40px;
+    height: 10px;
+    background-color: #e53f6f;
+
+}

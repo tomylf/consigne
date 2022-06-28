@@ -1,0 +1,72 @@
+*{
+    font-family: 'montserrat' sans-serif;
+ }
+
+nav{
+    background: rgba(33, 33, 33, 0.534);
+    height: 50px;
+    padding-top: 15px;
+}
+
+nav ul{
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 12%;
+    
+}
+
+nav ul li{
+    float: left;
+    width: calc(calc(100% - 1px) / 7);
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff; 
+}
+
+.first li a{
+    padding: 10px 30px;
+}
+
+.first li a:hover{
+    background: #1C5F81;
+}
+
+header{
+    background: url('../img/dinosaure.jpg') no-repeat ;
+    background-size: cover;
+    
+}
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+.bande{
+    margin-left: 772px;
+}
+
+.titre{
+    text-align: center;
+}
+
+span:first-of-type{
+    color: gray;
+}
+
+figure caption{
+    justify-content: center;
+    display: flex;
+}
+
+figure caption img:hover{
+    cursor: pointer;
+    transform: scale(3.4);
+    transition-duration: 2s;
+}

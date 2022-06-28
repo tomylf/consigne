@@ -1,0 +1,63 @@
+
+.header_top{
+    background: rgb(107, 99, 99);
+    color: white;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+   
+
+}
+
+.card{
+    border: none;
+    font-size: small;
+}
+
+.hright{
+
+}
+
+main{
+    margin: 10px 10%;
+
+}
+
+
+
+.card-body p{
+    background: #F52674;
+    
+}
+
+.devis{
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+}
+
+.compte{
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+
+.conseil{
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+}
+
+.panier{
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+}
+
+
+
+
+
